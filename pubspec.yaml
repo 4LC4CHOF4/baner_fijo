@@ -1,0 +1,21 @@
+name: baner_fijo
+description: Ejemplo Flutter de un banner AdMob fijo de 320 x 50 dp.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.1'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^9.2.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
